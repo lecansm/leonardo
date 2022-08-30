@@ -266,6 +266,26 @@ justify-content: center;
 font-size: 46px;
 }
 
+@media screen and (max-width:600px) {
+
+  .txtCabecalho{
+    font-family: 'Silkscreen';
+      color: #fff;
+       display: flex;
+    justify-content: center;
+    font-size: 32px;
+    }
+
+  #mario{
+    width: 90% ;
+    height: 90%;
+   margin-left: 10%;
+  }
+
+}
+
+
+
 p{
   font-family: 'Amiri';
   color: #c4c4c4;
@@ -435,6 +455,7 @@ div[id^='btnFiap']:hover {
   text-decoration: none;
   display: flex;
   justify-content: center;
+  margin-bottom: 7%;
 }
 .logoLinguagem{
   width: 40px;
