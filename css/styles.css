@@ -629,7 +629,6 @@ div[id^='btnFiap']:hover {
 
 .Expcard {
   margin: auto;
-
   border-left: 5px solid #407A52;
   padding-left: 3%;
   margin-bottom: 2%;
@@ -638,7 +637,6 @@ div[id^='btnFiap']:hover {
 
 .Expcard2 {
   margin: auto;
-
   width: 80%;
   border-left: 5px solid #ffdc6c;
   padding-left: 3%;
@@ -682,3 +680,30 @@ footer p {
   display: none;
 }
 
+.carousel .carousel-indicators img {
+  margin-right: 30px; 
+  background-color: transparent;
+}
+
+@media screen and (max-width:600px) {
+  .Expcard{
+    padding-top: 10%;
+    padding-bottom: 20%;
+  }
+  .carousel .carousel-indicators img {
+    margin-right: 30px; 
+    padding-top: 5%;
+    background-color: transparent;
+  }
+
+  .carousel .carousel-indicators img.active {
+    content:url("../img/blank_block.png");
+    background-color: transparent;
+  }
+  
+}
+
+.carousel .carousel-indicators img.active {
+  content:url("../img/blank_block.png");
+  background-color: transparent;
+}
