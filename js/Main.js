@@ -1,40 +1,22 @@
-
-var lastScrollTop;
-navbar = document.getElementById("BarraNav");
-document.body.addEventListener('scroll',function(){
-var scrollTop = document.body.pageYOffset || document.documentElement.scrollTop;
-if(scrollTop > lastScrollTop){
-navbar.style.top='-80px';
-}
-else{
-navbar.style.top='0';
-}
-lastScrollTop = scrollTop;
-});
-
-
-
-
-
-
+window.addEventListener('load', AOS.refresh)
+AOS.init();
 
 function TrocaSkill() {
-  document.getElementById("corpo").style.display="block";
-  document.getElementById("corpo2").style.display="none";
-  
+  document.getElementById("corpo").style.display = "block";
+  document.getElementById("corpo2").style.display = "none";
+  document.getElementById("botaosoft").style.backgroundImage = "linear-gradient(to right, #212121, #1d1d1d, #181818, #141414, #0f0e0e)";
+  document.getElementById("botaohard").style.backgroundImage = "linear-gradient(to right, #000000, #2a0d13, #4d0b17, #6f0712, #8e0e00)";
+  document.getElementById("botaohard").style.border = "2px solid #000";
 }
-  
-  function TrocaSkill2() {
-    document.getElementById("corpo").style.display="none";
-  document.getElementById("corpo2").style.display="block";
 
+function TrocaSkill2() {
+  document.getElementById("corpo").style.display = "none";
+  document.getElementById("corpo2").style.display = "block";
+  document.getElementById("botaosoft").style.backgroundImage = "linear-gradient(to right, #000428, #031a40, #062a5a, #073b75, #004e92)";
+  document.getElementById("botaohard").style.backgroundImage = "linear-gradient(to right, #212121, #1d1d1d, #181818, #141414, #0f0e0e)";
+  document.getElementById("botaosoft").style.border = "2px solid #000";
+}
 
-    }
-
-  function changeDivContent(btn) {
-      content.innerHTML = btn.value
-    }
-
-
-
-    
+function changeDivContent(btn) {
+  content.innerHTML = btn.value
+}
