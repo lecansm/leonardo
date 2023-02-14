@@ -264,6 +264,7 @@ div[id^='botao']:hover {
   height: 350px;
   /*margin: auto;*/
   display: block;
+  border-radius: 50%;
 }
 
 @media screen and (max-width:600px) {
