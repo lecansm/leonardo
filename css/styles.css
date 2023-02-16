@@ -2,7 +2,6 @@ html,
 body {
   width: auto;
   width: 100%;
-  height: 100%;
   overflow-x: hidden;
 }
 
@@ -38,15 +37,13 @@ h1 h3 h4 {
   color: #fff;
 }
 
-
-
 #BarraNav {
   background-color: #212121;
   position: fixed;
   transition: top 0.3s;
   top: 0;
   width: 100%;
-
+  z-index: 1100
 }
 
 
@@ -146,10 +143,7 @@ nav ul li:hover::after {
   color: #fff;
   display: flex;
   justify-content: center;
-
   font-weight: bold;
-
-
 }
 
 #botao {
@@ -475,6 +469,10 @@ div[id^='btnCRM']:hover {
   transform: scale(1.2);
 }
 
+.logoLinguagem:hover{
+  transform: scale(1.4);
+}
+
 
 #btnPp {
   display: flex;
@@ -729,11 +727,11 @@ footer p {
   background-color: transparent;
 }
 
-#LinhaBotoes{
+#LinhaBotoes {
   width: 50%;
   margin: auto;
   margin-bottom: 2%;
-  justify-content: center; 
+  justify-content: center;
 }
 
 @media screen and (max-width:600px) {
