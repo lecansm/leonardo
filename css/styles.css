@@ -43,7 +43,7 @@ h1 h3 h4 {
   transition: top 0.3s;
   top: 0;
   width: 100%;
-  z-index: 1100
+  z-index: 1100;
 }
 
 

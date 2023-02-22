@@ -20,3 +20,13 @@ function TrocaSkill2() {
 function changeDivContent(btn) {
   content.innerHTML = btn.value
 }
+var eixoAnterior = window.pageYOffset;
+window.onscroll = function() {
+  var atualEixo = window.pageYOffset;
+  if (eixoAnterior > atualEixo) {
+    document.getElementById("BarraNav").style.top = "0";
+  } else {
+    document.getElementById("BarraNav").style.top = "-100px";
+  }
+  eixoAnterior = atualEixo;
+}
