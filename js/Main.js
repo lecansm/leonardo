@@ -1,6 +1,7 @@
 window.addEventListener('load', AOS.refresh)
 AOS.init();
 
+
 function TrocaSkill() {
   document.getElementById("corpo").style.display = "block";
   document.getElementById("corpo2").style.display = "none";
@@ -21,14 +22,7 @@ function changeDivContent(btn) {
   content.innerHTML = btn.value
 }
 
-/*
-var eixoAnterior = window.pageYOffset;
-window.onscroll = function() {
-  var atualEixo = window.pageYOffset;
-  if (eixoAnterior > atualEixo) {
-    document.getElementById("BarraNav").style.top = "0";
-  } else {
-    document.getElementById("BarraNav").style.top = "-100px";
-  }
-  eixoAnterior = atualEixo;
-}*/
+
+
+
+

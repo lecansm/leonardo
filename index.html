@@ -30,12 +30,13 @@
 </head>
 
 <body>
+  
 
   <!---Cabeçalho do site-->
 
+  
   <nav class="navbar navbar-expand-lg " id="BarraNav">
     <div class="container-fluid">
-
       <a id="TituloNav" style="margin-left: 10%;font-family: 'Silkscreen';" class="navbar-brand" href="#">Leonardo da
         Rocha</a>
       <img id="imgLogo" src="img/triforce.gif" alt="">
@@ -44,9 +45,9 @@
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav nav-pills" role="tablist">
 
-          <li class="nav-item active">
+          <li class="nav-item">
             <a id="TituloNav" class="TituloNav nav-link" href="#Home">Home</a>
           </li>
 
@@ -66,15 +67,16 @@
             <a id="TituloNav" class="nav-link" href="#Experiencias">Experiência</a>
           </li>
 
-
         </ul>
       </div>
     </div>
   </nav>
 
+  
+
+  <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
 
   <section id="Home">
-
 
 
     <div class="row" style=" padding-top: 10%;">
@@ -107,6 +109,8 @@
             </a>
           </div>
 
+          
+
           <div class="col">
             <a target="_blank" style="text-decoration: none;" href="https://github.com/LeonardoDaRocha745">
               <div id="botaogit"><img style="width: 30px; height: 30px; margin-left: 5%  ;" src="img/github.png" alt="">
@@ -119,6 +123,17 @@
 
           <div class="col">
             <a target="_blank" style="text-decoration: none;"
+              href="img/Currículo_Leonardo.pdf">
+              <div id="botaopdf">
+                <img style="width: 30px; height: 30px; padding-right: 5px;" src="img/curriculo.png" alt="">
+                <p id="txtBotao">Currículo</p>
+              </div>
+            </a>
+          </div>
+
+          
+          <div class="col">
+            <a target="_blank" style="text-decoration: none;"
               href="mailto: leonardodarocha2608@outlook.com?subject=Oiie Léo, vim pelo seu portfólio e gostaria de conversar :)">
               <div id="botao">
                 <img style="width: 60px; height: 60px;" src="img/email.png" alt="">
@@ -126,7 +141,6 @@
               </div>
             </a>
           </div>
-
 
         </div>
 
@@ -137,7 +151,7 @@
   </section>
 
 
-  <section id="Sobremim">
+  <section  id="Sobremim">
     <div style="display: flex;
         justify-content: center; padding-top: 2%; ">
       <img style="width: 50px; height: 50px; display: flex;
@@ -195,7 +209,7 @@
 
       </div>
       <div data-aos="zoom-in" class="col-md-4" style="margin-bottom: 5%;">
-        <img id="eu" src="img/eu1.jpeg" alt="">
+        <img id="eu" src="img/eu2.jpg" alt="">
       </div>
 
     </div>
@@ -931,6 +945,8 @@
 
   </section>
 
+  </main>
+
   <script>
     AOS.init();
   </script>
@@ -943,6 +959,7 @@
     crossorigin="anonymous"></script>
   <script src="js/Main.js"></script>
 
+  
 
 
 

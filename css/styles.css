@@ -4,6 +4,9 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+body {
+  position: relative;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -44,6 +47,10 @@ h1 h3 h4 {
   top: 0;
   width: 100%;
   z-index: 1100;
+}
+
+nav .container-fluid ul li.active{
+  background-color: #073b75;
 }
 
 
@@ -93,6 +100,22 @@ nav ul li {
   background-image: linear-gradient(to right, #02050b, #0d0f12, #151517, #1b1b1c, #212121);
 }
 
+.nav-pills .nav-link {
+ font-size: 16px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-transform:none !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: #e0e044 !important;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: red !important;
+  background-color: white;
+}
 
 #Experiencias {
   width: 100%;
@@ -106,6 +129,7 @@ nav ul li {
 nav ul li::after {
   content: "";
   display: block;
+  color: #e0e044;
   border-bottom: 2px solid #e0e044;
   margin-top: 5px;
   transform: scaleX(0);
@@ -161,6 +185,22 @@ nav ul li:hover::after {
   letter-spacing: 1.5px;
   height: 55px;
   border: 2px solid #407A52;
+}
+
+#botaopdf{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-evenly;
+  width: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 1.5px;
+  height: 55px;
+  border: 2px solid #b43333;
 }
 
 
