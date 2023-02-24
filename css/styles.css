@@ -89,6 +89,7 @@ nav ul li {
 @media screen and (max-width:600px) {
   #Home {
     height: 100%;
+    padding-bottom: 80px;
   }
 }
 
