@@ -386,13 +386,24 @@ div[id^='botao']:hover {
 
 }
 
-
-
 p {
   font-family: 'Amiri';
   color: #c4c4c4;
   display: block;
   font-size: 20px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.txtHabilidades{
+  font-family: 'Amiri';
+  color: #c4c4c4;
+  display: block;
+  font-size: 20px;
+  padding: 5px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -584,7 +595,7 @@ div[id^='btnFiap']:hover {
 #Habilidades {
   width: 100%;
   height: auto;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
   background-image: linear-gradient(to right, #212121, #1d1d1d, #181818, #141414, #0f0e0e);
 }
 
