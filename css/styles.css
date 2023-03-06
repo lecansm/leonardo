@@ -440,7 +440,6 @@ p {
   border-left: 5px solid green;
 }
 
-
 .imgProjetoFiap {
   width: 400px;
   height: 150px;
@@ -471,7 +470,22 @@ p {
   border-left: 5px solid #1F4788;
 }
 
+@media screen and (max-width:600px) {
+  .imgProjeto {
+    width: 300px;height: 120px;
+    height: 120px;
+  }
+  .imgProjetoPp{
+    width: 300px;
+    height: 120px;
+  }
 
+  .imgProjetoFiap{
+    width: 300px;
+    height: 120px;
+  }
+
+}
 
 #divProjeto {
   width: 70%;
