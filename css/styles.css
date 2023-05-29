@@ -725,15 +725,6 @@ div[id^='btnFiap']:hover {
   width: 80%;
 }
 
-.Expcard2 {
-  margin: auto;
-  padding-left: 3%;
-  margin-bottom: 2%;
-  width: 80%;
-  border-left: 5px solid #ffdc6c;
-
-}
-
 .rodape {
   background-image: linear-gradient(to right, #02050b, #0d0f12, #151517, #1b1b1c, #212121);
   height: auto;
