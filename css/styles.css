@@ -697,54 +697,6 @@ div[id^='btnFiap']:hover {
   }
 }
 
-
-@media screen and (max-width: 600px) {
-  #cardHabilidades {
-    width: 265px;
-    height: 280px;
-    margin-left: 2%;
-  }
-
-  #cardHabilidades2{
-    width: 265px;
-    height: 280px;
-    margin-left: 5%;
-  }
-
-  .txtLing {
-    color: #c4c4c4;
-    text-align: center;
-    margin-top: 2%;
-    font-size: 20px;
-  }
-
-  .logoLinguagem2 {
-    width: 45px;
-    height: 40px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .logoAngular {
-    height: 40px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .txtHabilidades{
-    font-family: 'Amiri';
-    color: #c4c4c4;
-    display: block;
-    font-size: 15px;
-    padding: 5px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-  }
-}
-
 .txtLing {
   color: #c4c4c4;
   text-align: center;
