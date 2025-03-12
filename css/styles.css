@@ -64,7 +64,7 @@ nav .container-fluid ul li.active{
   color: #fff;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-device-width:600px) {
   #TituloNav {
     font-size: 16px;
   }
@@ -622,6 +622,65 @@ div[id^='btnFiap']:hover {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-bottom: 5px solid #E91C5D;
+}
+
+#cardHabilidades2 {
+  width: auto;
+  height: auto;
+  background-color: #282424;
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-bottom: 5px solid #E91C5D;
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  #cardHabilidades {
+    width: 265px;
+    height: 260px;
+    margin-left: 2%;
+  }
+
+  #cardHabilidades2{
+    width: 265px;
+    height: 260px;
+    margin-left: 5%;
+  }
+
+  .txtLing {
+    color: #c4c4c4;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+  }
+
+  .logoLinguagem2 {
+    width: 45px;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .logoAngular {
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .txtHabilidades{
+    font-family: 'Amiri';
+    color: #c4c4c4;
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+  }
 }
 
 
