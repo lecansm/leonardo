@@ -66,12 +66,12 @@ nav .container-fluid ul li.active{
 
 @media screen and (max-device-width:600px) {
   #TituloNav {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   #imgLogo {
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
   }
 }
 
