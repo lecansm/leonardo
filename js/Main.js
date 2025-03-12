@@ -27,8 +27,8 @@ if (navigator.userAgent.includes("Instagram")) {
   document.getElementById("imgLogo").style.width = "40px";
   document.getElementById("imgLogo").style.height = "40px";
   document.getElementById("txtApre").style.fontSize = "20px";
-  document.getElementById("cardHabilidades").style.height = "280px";
-  document.getElementById("cardHabilidades2").style.height = "280px";
+  document.getElementById("cardHabilidades").style.height = "280px !important";
+  document.getElementById("cardHabilidades2").style.height = "280px !important";
 }
 
 
