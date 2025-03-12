@@ -26,6 +26,7 @@ if (navigator.userAgent.includes("Instagram")) {
   document.getElementById("TituloNav").style.fontSize = "16px";
   document.getElementById("imgLogo").style.width = "40px";
   document.getElementById("imgLogo").style.height = "40px";
+  document.getElementById("txtApre").style.fontSize = "20px";
 }
 
 
