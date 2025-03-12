@@ -79,6 +79,14 @@ nav .container-fluid ul li.active{
     width: 30px !important;
     height: 30px !important;
   }
+
+  #txtApre {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px !important;
+  }
 }
 
 nav ul li {
