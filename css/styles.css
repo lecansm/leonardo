@@ -14,35 +14,37 @@ body {
   position: relative;
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #212121;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #e0e044;
+  background: #5490e4;
   border-radius: 10px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: yellow
+  background: #3272cc
+}
+
+strong {
+  color: #FFD700; 
 }
 
 
+
 h1 h3 h4 {
-  color: #e0e044;
+  color: #5490e4;
   text-align: center;
 }
 
 #TituloNav {
+  font-family: 'Silkscreen';
   color: #fff;
 }
 
@@ -61,8 +63,8 @@ nav .container-fluid ul li.active{
 
 
 #imgLogo {
-  width: 50px;
-  height: 40px;
+  width: 70px;
+  height: 60px;
   margin-left: 10px;
 }
 
@@ -81,6 +83,7 @@ nav .container-fluid ul li.active{
   }
 
   #txtApre {
+    font-family: 'Silkscreen';
     color: #fff;
     display: flex;
     justify-content: center;
@@ -141,7 +144,7 @@ nav ul li {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
   background-color: transparent !important;
   box-shadow: none !important;
-  color: #e0e044 !important;
+  color: #5490e4 !important;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -161,8 +164,8 @@ nav ul li {
 nav ul li::after {
   content: "";
   display: block;
-  color: #e0e044;
-  border-bottom: 2px solid #e0e044;
+  color: #5490e4;
+  border-bottom: 2px solid #5490e4;
   margin-top: 5px;
   transform: scaleX(0);
   transition: transform 0.4s ease;
@@ -173,29 +176,29 @@ nav ul li:hover::after {
 }
 
 #dev {
-  width: 550px;
-  height: 320px;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 .meuNome {
-  color: #e0e044;
+  color: #5490e4;
   display: flex;
   justify-content: center;
-  font: 700 normal 2.5em 'tahoma';
+  font: 700 normal 2.5em 'Silkscreen';
   text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
-}
+} 
+
 
 @media screen and (max-width:600px) {
   .meuNome {
-    font: 700 normal 2.0em 'tahoma';
+    font: 700 normal 2.0em 'Silkscreen';
   }
 }
 
 
 #txtApre {
+  font-family: 'Silkscreen';
   color: #fff;
   display: flex;
   justify-content: center;
@@ -444,12 +447,6 @@ p {
   background-image: linear-gradient(to right, #02050b, #0d0f12, #151517, #1b1b1c, #212121);
 }
 
-#moeda {
-  width: 80px;
-  height: 80px;
-
-}
-
 .imgProjeto {
   width: 90%;
   height: 150px;
@@ -605,12 +602,25 @@ div[id^='btnFiap']:hover {
   margin-bottom: 7%;
 }
 
-.logoLinguagem {
-  width: 40px;
-  margin-right: 1%;
-  margin: auto;
+.sonic {
+  height: 100px;
+  width: 100px;
+  margin-top: 7%;
 }
 
+.ring {
+  height:70px;
+  width: 70px;
+  margin-top: 95%;
+  cursor: pointer;
+}
+
+.brilho {
+  height:70px;
+  width: 70px;
+  margin-top: 95%;
+  cursor: pointer;
+}
 
 
 #Habilidades {
@@ -639,8 +649,8 @@ div[id^='btnFiap']:hover {
 }
 
 #cardHabilidades {
-  width: auto;
-  height: auto;
+  width: 150px;
+  height: 100px;
   background-color: #282424;
   border-radius: 2%;
   margin: auto;
@@ -716,8 +726,8 @@ div[id^='btnFiap']:hover {
 }
 
 .logoLinguagem2 {
-  width: 90px;
-  height: 80px;
+  width: 190px;
+  height: 180px;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -930,4 +940,62 @@ footer a {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
+}
+
+.sonic-run {
+  position: relative;
+  left: 0;
+  animation: runToRing 1s linear forwards;
+}
+
+@keyframes runToRing {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 400px; 
+  }
+}
+
+.sonic-run2 {
+  position: relative;
+  left: 400px;
+  animation: runToRing2 1s linear forwards;
+}
+
+@keyframes runToRing2 {
+  0% {
+    left: 400px;
+  }
+  100% {
+    left: 900px; 
+  }
+}
+.sonic-run3{
+  position: relative;
+  left: 400px;
+  animation: runToRing3 1s linear forwards;
+}
+
+@keyframes runToRing3 {
+  0% {
+    left: 900px;
+  }
+  100% {
+    left: 1400px; 
+  }
+}
+
+@keyframes girarTrocar {
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(90deg); }
+  100% { transform: rotateY(180deg); }
+}
+
+.girar-trocar {
+  animation: girarTrocar 1s forwards;
+}
+
+.invertida {
+  transform: scaleX(-1);
 }
